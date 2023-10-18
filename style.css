@@ -10,6 +10,7 @@ body {
     place-items: center;
     display: grid;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 p {
