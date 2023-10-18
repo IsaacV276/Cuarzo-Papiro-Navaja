@@ -25,7 +25,6 @@ const userSelection = async () => {
   selected = prompt("Elegí una: c/p/n");
    if (!opc.includes(selected.toLowerCase()))
     return alert("Por favor, seleccione una opción válida");
-  if (!selected) alert("Por favor, seleccione una opción");
   userSel.push(selected);
   botSelection();
   compare(userSel[0], botSel[0]);
